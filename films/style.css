@@ -15,9 +15,8 @@ body {
 	min-height: 100vh;
 	align-items: center;
 	line-height: 1.6;
-	background:  var(--clr-neutral-900);
+	background-color:  black;
 	font-family: sans-serif;
-	padding-left: 10ch;
 }
 
 .card {
