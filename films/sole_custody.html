@@ -8,36 +8,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <!-- https://fonts.google.com/ -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/templatemo-video-catalog.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-	<div class="tm-page-wrap mx-auto">
+	<div class="james-page-wrap mx-auto">
 		<div class="position-relative">
-			<div class="potition-absolute tm-site-header">
+			<div class="potition-absolute james-site-header">
 				<div class="container-fluid position-relative">
 					<div class="row">						
                         <div class="col-5 col-md-8 ml-auto mr-0">
-                            <div class="tm-site-nav">
-                                <nav class="navbar navbar-expand-lg mr-0 ml-auto" id="tm-main-nav">
-                                    <button class="navbar-toggler tm-bg-black py-2 px-3 mr-0 ml-auto collapsed" type="button"
+                            <div class="james-site-nav">
+                                <nav class="navbar navbar-expand-lg mr-0 ml-auto" id="james-main-nav">
+                                    <button class="navbar-toggler james-bg-black py-2 px-3 mr-0 ml-auto collapsed" type="button"
                                         data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav"
                                         aria-expanded="false" aria-label="Toggle navigation">
                                         <span>
-                                            <i class="fas fa-bars tm-menu-closed-icon"></i>
-                                            <i class="fas fa-times tm-menu-opened-icon"></i>
+                                            <i class="fas fa-bars james-menu-closed-icon"></i>
+                                            <i class="fas fa-times james-menu-opened-icon"></i>
                                         </span>
                                     </button>
-                                    <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                                    <div class="collapse navbar-collapse james-nav" id="navbar-nav">
 										<ul class="navbar-nav text-uppercase">
 											<li class="nav-item">
-												<a class="nav-link tm-nav-link" href="../index.html">Home</a>
+												<a class="nav-link james-nav-link" href="../index.html">Home</a>
 											</li>
 											<li class="nav-item active">
-												<a class="nav-link tm-nav-link" href="./films.html">Films</a>
+												<a class="nav-link james-nav-link" href="./films.html">Films</a>
 											</li>
 											<li class="nav-item">
-												<a class="nav-link tm-nav-link" href="https://github.com/jcstrachan?tab=repositories">Coding</a>
+												<a class="nav-link james-nav-link" href="https://github.com/jcstrachan?tab=repositories">Coding</a>
 											</li>
                                         </ul>
                                     </div>
@@ -47,14 +47,19 @@
 					</div>
 				</div>
 			</div>
-			<div class="tm-welcome-container tm-fixed-header tm-fixed-header-1"></div>
-            <div id="tm-fixed-header-bg"></div>
+			<div class="james-welcome-container james-fixed-header james-fixed-header-1">
+				<div class="text-center">
+					<h1 class="fw-light james-text-primary m-0" style="filter: drop-shadow(0 0 0.75rem rgb(19, 19, 19));"><b>Sole Custody</b></h1>                	
+				</div>    
+			</div>
+            <div id="james-fixed-header-bg"></div>
 		</div>
 
 		<!-- Page content -->
 		<div class="container-fluid">
-			<div class="mx-auto tm-content-container">
+			<div class="mx-auto james-content-container">
 				<main>
+					<!-- Video-->
 					<div class="row mb-5 pb-4">
 						<div class="col-12">
 							<!-- Video player 1422x800 -->
@@ -64,16 +69,17 @@
 							</video>
 						</div>
 					</div>
+					<!-- Video Desc -->
 					<div class="row mb-5 pb-5">
 						<div class="col-xl-8 col-lg-7">
 							<!-- Video description -->
-							<div class="tm-video-description-box tm-bg-gray">
-								<h2 class="mb-5 tm-video-title">Sole Custody</h2>
-								<p class="tm-catalog-item-text">
-									<b><span class="tm-text-secondary">Director/Writer/Editor</span></b><br>
+							<div class="james-video-description-box james-bg-gray">
+								<h2 class="mb-5 james-video-title">Sole Custody</h2>
+								<p class="james-catalog-item-text">
+									<b><span class="james-text-secondary">Director/Writer/Editor</span></b><br>
 									"A boy's nightmares blend into his already troubled daily life, 
 									as he attracts the interest of a menacing creature."<br>
-									<b><span class="tm-text-secondary">Technical Specs:</span></b><br>
+									<b><span class="james-text-secondary">Technical Specs:</span></b><br>
 									<b>Camera:</b> Blackmagic Pocket 4k<br>
 									<b>Lenses:</b> Meike 25mm & 50mm<br>
 									Filmed in various locations across Aberdeen
@@ -86,25 +92,8 @@
 						</div>
 					</div>
 				</main>
-			</div> <!-- .tm-content-container -->
+			</div> <!-- .james-content-container -->
 		</div>
 	</div>
-
-	<script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script>
-    	$(document).ready(function() {
-    		$('.tm-likes-box').click(function(e) {
-    			e.preventDefault();
-    			$(this).toggleClass('tm-liked');
-
-    			if($(this).hasClass('tm-liked')) {
-    				$('#tm-likes-count').html('486 likes');
-    			} else {
-    				$('#tm-likes-count').html('485 likes');
-    			}
-    		});
-    	});
-    </script>
 </body>
 </html>
