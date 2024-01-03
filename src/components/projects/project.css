@@ -1,0 +1,45 @@
+.project-content-container {
+    padding: 0 15px;
+    padding-top: 25vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.back-button {
+    position: relative;
+    top: 20px;
+    z-index: 1;
+}
+
+.img-wrap {
+    margin: 0 -15px;
+    position: relative;
+}
+
+.bg-img {
+    position: absolute;
+    width: 100%;
+    mask-image: linear-gradient(rgba(2,48,71,1) 60%, rgba(0,0,0,0) 100%);
+}
+
+.project-title {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.project-role {
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+
+.project-info-container{
+    padding: 25px 0;
+    display: flex;
+}
+
+.project-meta {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}

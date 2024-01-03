@@ -1,0 +1,12 @@
+.carousel-image {
+    height: 500px;
+    width: 950px;
+    max-width: 90vw;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 800px) {
+    .carousel-image {
+        height: auto;
+    }
+}

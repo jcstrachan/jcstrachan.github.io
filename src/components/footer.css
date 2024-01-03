@@ -1,0 +1,31 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #044565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 25px 0;
+}
+
+.dev-warning {
+    width: 40%;
+}
+
+.socials-container {
+    padding: 25px 0;
+    display: flex;
+    gap: 15px;
+}
+
+.socials-icon {
+    padding: 5px;
+    color: var(--off-white);
+    height: 40px;
+    border-bottom: 1px solid transparent;
+}
+
+.socials-icon:hover {
+    border-bottom: 1px solid var(--off-white);
+}
+

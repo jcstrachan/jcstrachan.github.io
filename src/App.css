@@ -1,0 +1,8 @@
+.App {
+  margin: auto;
+  max-width: 1200px;
+  min-height: 100vh;
+  text-align: center;
+  background-color: var(--dark-blue);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+}

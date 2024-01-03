@@ -1,0 +1,51 @@
+:root{
+  --light-blue: #8ECAE6;
+  --mid-blue: #219EBC;
+  --dark-blue: #023047;
+  --light-orange: #FFB703;
+  --dark-orange: #FB8500;
+  --off-white: #dfdfdf;
+}
+
+body {
+  background-color: #011d2b;
+  color: var(--off-white);
+  font-family: 'Roboto Slab';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-button {
+  font-family: 'Roboto Slab';
+  color: var(--off-white);
+  border: none;
+  background-color: transparent;
+  padding: 15px 25px;
+  border-bottom: 1px solid transparent;
+}
+
+.nav-button:hover {
+  cursor: pointer;
+  border-bottom: 1px solid var(--off-white);
+}
+
+.active-nav {
+  border-bottom: 1px solid var(--off-white);
+}
+
+.dropdown-nav-button {
+  width: fit-content;
+  font-family: 'Roboto Slab';
+  font-size: larger;
+  font-weight: bolder;
+  color: var(--dark-blue);
+  border: none;
+  background-color: transparent;
+  padding: 15px 25px;
+  border-bottom: 1px solid transparent;
+}
+
+.dropdown-nav-button:hover {
+  cursor: pointer;
+  border-bottom: 1px solid var(--dark-blue);
+}
