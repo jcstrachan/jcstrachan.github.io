@@ -13,27 +13,29 @@ export default function Project(props) {
             <div className='project-content-container'>
                 <span className='project-title'>{props.film.title}</span>
                 <span className='project-role'>{props.film.role}</span>
-                {props.film.url && (
-                    <div className='player-wrapper'>
-                    <ReactPlayer
-                        className='react-player'
-                        url={props.film.url}
-                        width='100%'
-                        height='100%'
-                        controls={true}
-                    />
+                <div className='project-info-container'>
+                    <div className='project-meta'>
+                        <span className='director-name'><b>Directed by: </b>{props.film.director}</span>
+                        <span className='camera-type'><b>Camera: </b>{props.film.camera}</span>
+                        <span className='lens'><b>Lens: </b>{props.film.lens}</span>
+                    </div>
+                    <div className='project-description'>
+                        <span>{props.film.film_desc}</span>
+                    </div>
                 </div>
-                )}
             </div>
-            <div className='project-info-container'>
-                <div className='project-meta'>
-                    <span className='director-name'><b>Directed by: </b>{props.film.director}</span>
-                    <span className='camera-type'><b>Camera: </b>{props.film.camera}</span>
-                    <span className='lens'><b>Lens: </b>{props.film.lens}</span>
-                </div>
-                <div className='project-description'>
-                    <span>This is a project description...</span>
-                </div>
+            <div className='project-videos-container'>
+                {props.film.url && (
+                        <div className='player-wrapper'>
+                        <ReactPlayer
+                            className='react-player'
+                            url={props.film.url}
+                            width='100%'
+                            height='100%'
+                            controls={true}
+                        />
+                    </div>
+                )}
             </div>
         </div>
     )
