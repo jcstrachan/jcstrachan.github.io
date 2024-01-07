@@ -15,9 +15,13 @@ export default function Project(props) {
                 <span className='project-role'>{props.film.role}</span>
                 <div className='project-info-container'>
                     <div className='project-meta'>
-                        <span className='director-name'><b>Directed by: </b>{props.film.director}</span>
-                        <span className='camera-type'><b>Camera: </b>{props.film.camera}</span>
-                        <span className='lens'><b>Lens: </b>{props.film.lens}</span>
+                        {props.film.director && (
+                            <span className='director-name'><b>Directed by: </b>{props.film.director}</span>
+                        )}
+                        {props.film.camera && (
+                            <span className='camera-type'><b>Camera: </b>{props.film.camera}</span>
+                        )}
+                        {/* <span className='lens'><b>Lens: </b>{props.film.lens}</span> */}
                     </div>
                     <div className='project-description'>
                         <span>{props.film.film_desc}</span>

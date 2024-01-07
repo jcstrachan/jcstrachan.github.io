@@ -18,12 +18,12 @@ export default function Gallery() {
 
     const images = [
         {title:'Sole Custody', role:'Director', image:sc1},
+        {title:'Prison Comedy', role:'1st AC', image:pc},
         {title:'Lurking', role:'Director of Photography', image:lk},
+        {title:'Sole Custody', role:'Director', image:sc2},
         {title:'Stable', role:'1st AC / Gaffer', image:stable2},
         {title:'Prison Comedy', role:'1st AC', image:pc2},
-        {title:'Sole Custody', role:'Director', image:sc2},
         {title:'Stable', role:'1st AC / Gaffer', image:stable},
-        {title:'Prison Comedy', role:'1st AC', image:pc},
     ]
 
     return (

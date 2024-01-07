@@ -34,7 +34,7 @@ export default function Navbar() {
         {/* Nav Bar */}
         <div className="nav-buttons">
             <button className={`${active === "work" ? 'nav-button active-nav' : 'nav-button'}`} onClick={() => navigate('work')}>Work</button>
-            <button className={`${active === "about" ? 'nav-button active-nav' : 'nav-button'}`} onClick={() => navigate('about')}>About</button>
+            {/* <button className={`${active === "about" ? 'nav-button active-nav' : 'nav-button'}`} onClick={() => navigate('about')}>About</button> */}
             <button className={`${active === "contact" ? 'nav-button active-nav' : 'nav-button'}`} onClick={() => navigate('contact')}>Contact</button>
         </div>
 
