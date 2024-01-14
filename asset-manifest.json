@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6c1ab43f.css",
-    "main.js": "/static/js/main.f7a10de8.js",
+    "main.js": "/static/js/main.f7aab48c.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.be28fed9.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.c9ce3846.chunk.js",
     "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.f295aa6f.chunk.js",
@@ -16,18 +16,18 @@
     "reactPlayerFilePlayer.js": "/static/js/reactPlayerFilePlayer.acdd4ff3.chunk.js",
     "reactPlayerPreview.js": "/static/js/reactPlayerPreview.b9560165.chunk.js",
     "static/js/787.0f15b36d.chunk.js": "/static/js/787.0f15b36d.chunk.js",
-    "static/media/OpenOnTheClose_1.6.1.png": "/static/media/OpenOnTheClose_1.6.1.90d11e65ad0c68b61b2b.png",
     "static/media/stable-2.png": "/static/media/stable-2.2e271b40071c49d309e0.png",
     "static/media/stable.png": "/static/media/stable.7d9a7ceab76e47b8bf04.png",
-    "static/media/prison-comedy-2.jpg": "/static/media/prison-comedy-2.0be799aaed663e4526ac.jpg",
     "static/media/Lurking_1.2.1.png": "/static/media/Lurking_1.2.1.1e89a9026927f37356e3.png",
     "static/media/2035_2.1.1.png": "/static/media/2035_2.1.1.90996ba1a6b9af03fc28.png",
     "static/media/prison-comedy.jpg": "/static/media/prison-comedy.0581a8cd665232c3468d.jpg",
+    "static/media/prison-comedy-2 copy.jpg": "/static/media/prison-comedy-2 copy.3486c43e05a5c9a7d818.jpg",
     "static/media/sole_custody.jpg": "/static/media/sole_custody.9cc6ce74f57cef857f53.jpg",
     "static/media/sole-custody-2.jpg": "/static/media/sole-custody-2.a27ddc8757dc0a65824e.jpg",
+    "static/media/OpenOnTheClose_1.6.1.jpg": "/static/media/OpenOnTheClose_1.6.1.b3aacfa804dd2b7c8378.jpg",
     "index.html": "/index.html",
     "main.6c1ab43f.css.map": "/static/css/main.6c1ab43f.css.map",
-    "main.f7a10de8.js.map": "/static/js/main.f7a10de8.js.map",
+    "main.f7aab48c.js.map": "/static/js/main.f7aab48c.js.map",
     "reactPlayerYouTube.be28fed9.chunk.js.map": "/static/js/reactPlayerYouTube.be28fed9.chunk.js.map",
     "reactPlayerSoundCloud.c9ce3846.chunk.js.map": "/static/js/reactPlayerSoundCloud.c9ce3846.chunk.js.map",
     "reactPlayerVimeo.f295aa6f.chunk.js.map": "/static/js/reactPlayerVimeo.f295aa6f.chunk.js.map",
@@ -45,6 +45,6 @@
   },
   "entrypoints": [
     "static/css/main.6c1ab43f.css",
-    "static/js/main.f7a10de8.js"
+    "static/js/main.f7aab48c.js"
   ]
 }
