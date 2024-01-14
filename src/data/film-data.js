@@ -1,4 +1,4 @@
-import openOnTheCloseImage from '../assets/stills/OpenOnTheClose_1.6.1.png'
+import openOnTheCloseImage from '../assets/stills/OpenOnTheClose_1.6.1.jpg'
 import lurkingImage from '../assets/stills/Lurking_1.2.1.png'
 import twenty35Image from '../assets/stills/2035_2.1.1.png'
 import soleCustodyImage from '../assets/stills/sole_custody.jpg'

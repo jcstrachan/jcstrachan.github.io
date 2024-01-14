@@ -46,7 +46,6 @@ export default function Navbar() {
       {showDropdown &&(
         <div className='nav-dropdown'>
           <button className='dropdown-nav-button' onClick={() => navigate('/work')}>Work</button>
-          <button className='dropdown-nav-button' onClick={() => navigate('/about')}>About</button>
           <button className='dropdown-nav-button' onClick={() => navigate('/contact')}>Contact</button>
         </div>
       )}

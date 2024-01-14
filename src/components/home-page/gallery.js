@@ -9,7 +9,7 @@ import stable from '../../assets/stills/stable.png'
 import stable2 from '../../assets/stills/stable-2.png'
 
 import pc from '../../assets/stills/prison-comedy.jpg'
-import pc2 from '../../assets/stills/prison-comedy-2.jpg'
+import pc2 from '../../assets/stills/prison-comedy-2 copy.jpg'
 
 import lk from '../../assets/stills/Lurking_1.2.1.png'
 
